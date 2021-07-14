@@ -1,5 +1,17 @@
 html{
     margin: 0;
+    max-width: 1440px;
     width: 100%;
     box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(146, 209, 211);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    
 }
